@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+.header
+{
+    background:rgba(0,0,100,0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-style
+{
+    text-transform: uppercase;
+}
+.navbar-style:hover
+{
+    color: darkslategray;
+    transition: all 0.2s ease-in;
+}
+.logo
+{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar
+{
+   background: darkorange;
+}
+
+li
+{
+    display: inline-block;
+}
+
+li a
+{
+    color: burlywood; 
+}
+li a:hover
+{
+    border: 1px solid white;
+	background-color: grey;
+    transition: all 0.5s ease-in;
+}
+
+.hero
+{
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 250px;
+    
+}
+.lol
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+h1:hover
+{
+    color: red;
+    transition: all 0.5s ease-in;
+}
+
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	
+}
+
+@media (min-aspect-ratio: 16/9){
+	.video-background{
+		width: 100%;
+		height: auto;
+	}	
+
+}
+
+@media (max-aspect-ratio: 16/9){
+	.video-background{
+		width: auto;
+		height: 100%;	
+	}	
+}
+header
+{
+    background:rgba(0,0,100,0.5);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 50px;
+}
+
+.btn
+{
+    border: 10px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.btn-one
+{
+    background-color: darkorange;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+    
+        
+}
+#navbar {
+  overflow: hidden;
+}
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

@@ -1,0 +1,73 @@
+<html>
+    <head>
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="mstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    <header class="header">
+    <nav class="navbar navbar-style">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="micon">
+            <div id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html"> HOME </a></li>
+                <li><a href="menu.html"> MENU </a></li>
+                <li><a href=""> NEWS </a></li>
+                <li><a href="about.html"> ABOUT </a></li>
+                <li><a href="abc.html"> CONTACT </a></li>
+                <li><a href=""> Log In </a></li>
+            
+            </ul>
+            </div>
+            </div>
+        </div> 
+        </nav>
+    </header>
+    <div class="box1">
+        <img src="1.png">
+        <h1 class="lol1">Get The Right Digital Marketing Strategy For Your Company.</h1>
+    </div>
+    
+    <div class="box2">
+        <h2 class="lol2">We Don't Go Online... we live online!</h2>
+    </div>
+    <div class="box3">
+        <h3 class="lol3">Why partner with us?</h3>
+        <h4 class="lol4">With no fixed term contracts for any of our services, we provide flexible, integrated and effective digital strategies that produce measurable results.</h4><br><br><br><br>
+        <br><br>
+        <p>
+          We don't add a margin to your Google and media spends - all our clients pay Google and other media providers direct.<br>
+            Our clients own all of their platforms so they permanently  retain full control and access to  their data and IP.<br>
+            We focus entirely on ROI & business results.<br>
+            No fixed term contracts.<br>
+            We work with businesses across Globally.<br>
+        </p>
+    </div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    </script>   
+    
+</body>
+</html>
